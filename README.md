@@ -1,22 +1,30 @@
-# react-go-to-template
+# React Go To Template
+
 Template for setting up my React projects
 
 ## Technologies Used.
 
 - [x] React
-- [ ] Vite
-- [ ] Tailwindcss v4
-- [ ] Tailwindcss prettier
+- [x] Vite
+- [x] Tailwindcss v4
+- [x] Tailwindcss prettier
 - [ ] Tanstack Router
 - [ ] Tanstack Query
 - [ ] React Hook Form
 - [ ] Zod
 - [ ] Husky
-- [ ] Prettier
-- [ ] Typescript
+- [x] Prettier
+- [x] Typescript
 - [ ] Axios
 - [ ] Clsx
 - [ ] Class Variance Authority
 - [ ] Eslint
 
 ## Architecture Used.
+
+## How to use?
+
+- Clone project
+- Install dependencies using the package manager of your choice
+- Run server
+- Happy Hacking!
