@@ -12,7 +12,7 @@ Template for setting up my React projects
 - [x] Tanstack Query
 - [ ] React Hook Form
 - [x] Zod
-- [ ] Husky
+- [x] Husky
 - [x] Prettier
 - [x] Typescript
 - [x] Axios

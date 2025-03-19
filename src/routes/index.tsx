@@ -1,4 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Fragment } from "react/jsx-runtime";
+import { Homepage } from "~/features/hompage/components/homepage";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -6,9 +8,9 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
   return (
-    <div>
+    <Fragment>
       <title>Home Page</title>
-      Hello "/"!
-    </div>
+      <Homepage />
+    </Fragment>
   );
 }
