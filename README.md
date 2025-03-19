@@ -9,16 +9,16 @@ Template for setting up my React projects
 - [x] Tailwindcss v4
 - [x] Tailwindcss prettier
 - [x] Tanstack Router
-- [ ] Tanstack Query
+- [x] Tanstack Query
 - [ ] React Hook Form
 - [ ] Zod
 - [ ] Husky
 - [x] Prettier
 - [x] Typescript
-- [ ] Axios
+- [x] Axios
 - [ ] Clsx
 - [ ] Class Variance Authority
-- [ ] Eslint
+- [x] Eslint
 
 ## Architecture Used.
 
