@@ -8,7 +8,7 @@ Template for setting up my React projects
 - [x] Vite
 - [x] Tailwindcss v4
 - [x] Tailwindcss prettier
-- [ ] Tanstack Router
+- [x] Tanstack Router
 - [ ] Tanstack Query
 - [ ] React Hook Form
 - [ ] Zod
