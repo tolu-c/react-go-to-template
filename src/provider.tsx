@@ -6,7 +6,8 @@ import {
 import { PropsWithChildren, Suspense } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { queryConfig } from "~/lib/react-query";
-import { Button } from "./components/ui/button";
+import { Button } from "~/components/ui/button";
+import { Loader } from "~/components/ui/loader";
 
 const queryClient = new QueryClient({
   defaultOptions: queryConfig,
@@ -14,7 +15,7 @@ const queryClient = new QueryClient({
 
 export const AppProvider = ({ children }: PropsWithChildren) => {
   return (
-    <Suspense fallback={<div>loading...</div>}>
+    <Suspense fallback={<Loader />}>
       <QueryErrorResetBoundary>
         {({ reset }) => (
           <ErrorBoundary
