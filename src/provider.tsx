@@ -6,6 +6,7 @@ import {
 import { PropsWithChildren, Suspense } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { queryConfig } from "~/lib/react-query";
+import { Button } from "./components/ui/button";
 
 const queryClient = new QueryClient({
   defaultOptions: queryConfig,
@@ -21,7 +22,7 @@ export const AppProvider = ({ children }: PropsWithChildren) => {
             fallbackRender={({ error, resetErrorBoundary }) => (
               <div>
                 There was an error!{" "}
-                <button onClick={() => resetErrorBoundary()}>Try again</button>
+                <Button onClick={() => resetErrorBoundary()}>Try again</Button>
                 <pre style={{ whiteSpace: "normal" }}>{error.message}</pre>
               </div>
             )}

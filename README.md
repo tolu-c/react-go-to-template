@@ -11,7 +11,7 @@ Template for setting up my React projects
 - [x] Tanstack Router
 - [x] Tanstack Query
 - [ ] React Hook Form
-- [ ] Zod
+- [x] Zod
 - [ ] Husky
 - [x] Prettier
 - [x] Typescript
