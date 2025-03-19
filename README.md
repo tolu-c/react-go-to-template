@@ -19,6 +19,7 @@ Template for setting up my React projects
 - [ ] Clsx
 - [ ] Class Variance Authority
 - [x] Eslint
+- [x] React Error Boundary
 
 ## Architecture Used.
 
