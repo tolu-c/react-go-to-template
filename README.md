@@ -16,8 +16,7 @@ Template for setting up my React projects
 - [x] Prettier
 - [x] Typescript
 - [x] Axios
-- [ ] Clsx
-- [ ] Class Variance Authority
+- [x] Clsx, classnames merging
 - [x] Eslint
 - [x] React Error Boundary
 
