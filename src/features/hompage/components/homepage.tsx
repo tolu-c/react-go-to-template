@@ -1,3 +1,6 @@
+import { useUserState } from "~/state/user";
+
 export const Homepage = () => {
-  return <div>Homepage</div>;
+  const { data } = useUserState();
+  return <div>Homepage - {data?.name}</div>;
 };
